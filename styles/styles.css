@@ -1,0 +1,263 @@
+@charset "utf-8";
+/*Documento original css*/
+
+body{
+    background-color: #d1caca;
+}
+
+#cabecera{
+    background-color: #faf6f6;
+    height: 120px;
+    border-radius: .5;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(207,33,69,0.58);
+}
+
+.navegacionPrin{
+    list-style: none;
+    background-color: #faf6f6;
+    padding: 0PX;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.navegacionPrin li a{
+    text-shadow: 1px 2px 1px rgba(207,33,69,0.58);
+    text-decoration: none;
+    color: #030303;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flow-root;
+    border-radius: .5em;
+}
+
+.navegacionPrin li{
+    display: inline-block;
+    text-align: center;
+    background-color: #faf6f6;
+    color: #030303;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.navegacionPrin li a:hover{
+    background: rgb(196, 72, 72);
+    color:#ffffff;
+    text-shadow: none;
+}
+
+#contenido{
+    max-width: 90%;
+    margin: auto;
+    background-color: #faf6f6;
+    min-height: 500px;
+}
+
+#contenidoPrin{
+    background-color: #faf6f6;
+    color:#030303;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 500px;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+#imagen{
+    float: right;
+    max-width: 300px;
+    margin-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+#articulo1{
+    border: 1px ;
+    padding-left: 20px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#piePrin{
+    background-color: #faf6f6;
+    clear: both;
+    max-width: 90%;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: .5em;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2{
+    color: #030303;
+    font: normal 16px arial;
+}
+
+h3{
+    color: #030303;
+    font: normal 22px arial;
+    font-weight: bold; 
+}
+
+h4{
+    color: #030303;
+    font: normal 20px;
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+.cabeza tr, .cabeza td{
+	background-color: #df3f3f;
+    color:#ffffff;
+	padding: 5px 5px;
+	text-align: center;
+	border-style: ridge;
+}
+
+table{
+	padding: 10px 0px;
+}
+
+td{
+	background-color: #ebe8ec;
+	padding: 5px 5px;
+	text-align: center;
+	border-style: ridge;
+}
+
+#contenido h2{
+    color: #df3f3f;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+#contenido #tablaEstudios .titulo{
+    background-color: #eeeef0;
+    color: #000000;
+    text-overflow: initial;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#contenido #tablaEstudios .institucion{
+    background-color: #f7f7f8;
+    color: #000000;
+    text-overflow: initial;
+    text-align: center;
+    padding: 10px;
+}
+#contenido #tablaEstudios .ano{
+    background-color: #f7f7f8;
+    color: #000000;
+    text-overflow: initial;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#contenido .proyectosLista li a{
+    background-color: #f7f7f8;
+}
+
+
+ul.slider li{
+	list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 700px;
+    height: 400px;
+}
+ul.slider li{
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    text-align: left;
+    
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.menu li a{
+    display: inline-block;
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #df3f3f;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+#contacto{
+    margin-top: 100px;
+    background-color: #df3f3f;
+    color: #ffffff;
+    width: 600px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 5%;
+}
+
+#contacto label{
+    font-size: 18px;
+    padding: 10px
+}
+
+form input, form textarea{
+	display: block;
+    font-size: 18px;
+	padding: 10px;
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+#btnEnviar{
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #df3f3f;
+    color: #ffffff;
+}
+
